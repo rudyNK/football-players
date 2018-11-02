@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require './lib/football_players'
+
+
+FootballPlayers::CLI.new.call

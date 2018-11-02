@@ -1,6 +1,2 @@
-require "football_players/version"
-
-module FootballPlayers
-  class Error < StandardError; end
-  # Your code goes here...
-end
+require_relative "./football_players/version"
+require_relative './football_players/cli'
